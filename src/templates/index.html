@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free restaurant catalogue for you">
+  <meta name="theme-color" content="#526d82"/>
+  
+  <link rel="icon" href="./favicon.png">
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+  <link rel="manifest" href="./app.webmanifest">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+  
+  <title>Restaurantque</title>
+</head>
+<body>
+  <a href="#maincontent" class="skip-link">Skip To Content</a>
+  <header class="app-bar">
+    <div class="app-bar__menu">
+      <button id="hamburgerButton">☰</button>
+    </div>
+    <div class="app-bar__brand">
+    <h1>Restaurantque</h1>
+  </div>
+  <nav id="navigationDrawer" class="app-bar__navigation">
+    <ul>
+      <li><a href="#/home">Home</a></li>
+      <li><a href="#/like">Favorite</a></li>
+      <li><a href="https://www.linkedin.com/in/shalsaarlisfebiola">About Us</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="hero">
+  <picture>
+    <source media="(max-width: 300px)" srcset="../images/heros/hero-small.jpg">
+    <source media="(max-width: 800px)" srcset="../images/heros/hero-medium.jpg">
+    <img class="hero__img" src="./images/heros/hero.jpg" alt="hero image">
+  </picture>
+  <div class="container" tabindex="0">
+    <h2>Recomendation Restaurants For You</h2>
+  </div>
+</div>
+<main id="mainContent"></main>
+<footer class="footer">
+    <p>Restaurantque &#169; 2023, Restoran Indonesia</p>
+</footer>
+</body>
+</html>
